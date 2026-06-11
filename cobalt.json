@@ -1,11 +1,9 @@
 {
-  "type": "micro",
-  "wake_word": "Cobalt",
-  "author": "Iron",
-  "website": "https://github.com/MagusFerri",
-  "model": "./cobalt.tflite",
+  "type": "micro_wake_word",
+  "wake_word": "cobalt",
   "version": 1,
   "micro": {
+    "model": "cobalt.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_average_size": 10
   }
