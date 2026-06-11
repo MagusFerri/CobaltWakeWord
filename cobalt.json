@@ -1,10 +1,8 @@
 {
-  "type": "micro_wake_word",
   "wake_word": "cobalt",
   "version": 1,
-  "micro": {
-    "model": "cobalt.tflite",
-    "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10
-  }
+  "model": "https://raw.githubusercontent.com/MagusFerri/CobaltWakeWord/main/cobalt.tflite",
+  "authors": ["MagusFerri"],
+  "license": "MIT",
+  "minimum_esphome_version": "2024.2.0"
 }
